@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic To-Do App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>My To-Do List</h1>
+
+        <div class="todo-input">
+            <input type="text" id="taskInput" placeholder="Add a new task...">
+            <button id="addTaskBtn">Add Task</button>
+        </div>
+
+        <ul id="taskList">
+            <li class="task-item">
+                <input type="checkbox" id="task1">
+                <label for="task1">Buy groceries</label>
+                <button class="delete-btn">X</button>
+            </li>
+            <li class="task-item completed">
+                <input type="checkbox" id="task2" checked>
+                <label for="task2">Finish report</label>
+                <button class="delete-btn">X</button>
+            </li>
+            <li class="task-item">
+                <input type="checkbox" id="task3">
+                <label for="task3">Call mom</label>
+                <button class="delete-btn">X</button>
+            </li>
+        </ul>
+    </div>
+
+    </body>
+</html>
